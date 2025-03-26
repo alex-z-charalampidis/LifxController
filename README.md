@@ -57,9 +57,9 @@ The LIFX Light Control Application offers four primary control options accessibl
   - No Python installation needed on end-user systems when distributed as an executable.
 
 ### Development and Deployment
-- **Source Execution**: Run directly with `python lifx_gui_debug.py` in a Python environment with dependencies installed.
+- **Source Execution**: Run directly with `python lifx_gui.py` in a Python environment with dependencies installed.
 - **Executable Generation**:
-  - Command: `python -m PyInstaller --onefile --windowed lifx_gui_debug.py`
+  - Command: `python -m PyInstaller --onefile --windowed lifx_gui.py`
   - Produces a single executable (e.g., `lifx_gui_debug.exe` on Windows) in the `dist/` directory.
   - Size: Approximately 15-25 MB, depending on OS and Python version.
 - **Logging**: Outputs debug information to the console (or terminal when not using `--windowed`), aiding in troubleshooting network or device connectivity issues.
@@ -70,7 +70,7 @@ The LIFX Light Control Application offers four primary control options accessibl
 
 ## Installation and Usage
 
-1. **Clone or Download**: Obtain the source code (`lifx_gui_debug.py`).
-2. **Install Dependencies** (if running from source):
+1. **Clone or Download**: Obtain the source code (`lifx_gui.py`) or download the lifx.exe binary
+3. **Install Dependencies** (if running from source):
    ```bash
    pip install lifxlan
