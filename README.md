@@ -1,4 +1,4 @@
-# LIFX Light Control Application
+# LIFX Light Control Application (BETA)
 
 ## Intended Application Use
 
@@ -74,3 +74,4 @@ The LIFX Light Control Application offers four primary control options accessibl
 3. **Install Dependencies** (if running from source):
    ```bash
    pip install lifxlan
+4. A debug CMD window will be opened. Note that the application is in BETA state
